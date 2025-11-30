@@ -180,19 +180,13 @@ const handleChange = (event) => {
 
 ## Running the server
 
-You'll need two terminals open—one to run your React app, and the other to run the mock server.
-
-Install JSON Server:  
-npm install json-server
-
-Start the server:  
-npx json-server db.json
+You'll need two terminals open one to run your React app, and the other to run the server. To run the server cd into api, install dependencies with `npm i` and run `npm run start`
 
 ## Lab Deliverables
 
 1. Set up
 
-- Navigate into your project folder: cd usestate
+- Navigate into your project folder: cd forms
 - Install dependencies: npm install
 - Start the development server: npm run dev
 - Open your browser and go to http://localhost:5173/ to view your app
